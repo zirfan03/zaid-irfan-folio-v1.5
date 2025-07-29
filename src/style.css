@@ -23,7 +23,7 @@ body
 /* Scrollbar */
 
 ::-webkit-scrollbar {
-  width: 0.75vw;
+  width: 0.75vmax;
   background: black;
   border-radius: 1vmin;
 }
@@ -38,7 +38,7 @@ body
 
 ::-webkit-scrollbar-track {
   border: medium solid red;
-  margin: 4vh;
+  margin: 4vmin;
 }
 
 /* Fonts */
@@ -58,18 +58,18 @@ body
 .header {
     margin: auto;
     position: absolute;
-    top: 5vh;
+    top: 5vmin;
     left: 50%;
     transform: translate(-50%, 5%);
-    width: 25vw;
-    height: 7.5vh;
+    width: 25vmax;
+    height: 7.5vmin;
     border-radius: 1vmin;
     background-color: rgb(12, 12, 12);
     opacity: 80%;
     text-align: center;
     vertical-align: middle;
-    line-height: 7.5vh;
-    font-size: 2.5vh;
+    line-height: 7.5vmin;
+    font-size: 2.5vmin;
     font-weight: bold;
     font-family: hikasami;
     color: white;
@@ -87,11 +87,11 @@ body
 .nav {
   margin: auto;
   position: absolute;
-  bottom: 10vh;
+  bottom: 10vmin;
   left: 50%;
   transform: translate(-50%, 0%);
-  width: 50vw;
-  height: 7.5vh;
+  width: 50vmax;
+  height: 7.5vmin;
   border-radius: 1vmin;
   background-color: rgb(12, 12, 12);
   opacity: 80%;
@@ -102,8 +102,8 @@ body
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0%);
-  width: 45vw;
-  height: 7.5vh;
+  width: 45vmax;
+  height: 7.5vmin;
   background-color: rgb(12, 12, 12);
   opacity: 100%;
 }
@@ -114,15 +114,15 @@ body
   margin: auto;
   position: absolute;
   left: 0%;
-  width: 15vw;
-  height: 7.5vh;
+  width: 15vmax;
+  height: 7.5vmin;
   background-color: rgb(12, 12, 12);
   color: white;
   opacity: 80%;
   border-width: medium;
   border: none;
   font-family: hikasami;
-  font-size: 1.75vh;
+  font-size: 1.75vmin;
   text-align: center;
   vertical-align: middle;
 }
@@ -134,11 +134,11 @@ body
   left: 50%;
   top: 40%;
   transform: translate(-50%, -40%);
-  width: 75vw;
-  height: 65vh;
+  width: 75vmax;
+  height: 65vmin;
   border-radius: 1vmin;
   background-color: black;
-  opacity: 90%;
+  opacity: 82.5%;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -146,16 +146,16 @@ body
 .projects-header {
   margin: auto;
   position: absolute;
-  top: 4vh;
-  left: 2vw;
-  width: 23vw;
-  height: 5vh;
-  padding-left: 2vw;
-  font-size: 2.5vh;
+  top: 4vmin;
+  left: 2vmax;
+  width: 23vmax;
+  height: 5vmin;
+  padding-left: 2vmax;
+  font-size: 2.5vmin;
   font-weight: bold;
   font-family: hikasami;    
   vertical-align: middle;
-  line-height: 5vh;
+  line-height: 5vmin;
   background-color: red;
   color: black;
 }
@@ -163,21 +163,63 @@ body
 .projects-text-box {
   margin: auto;
   position: absolute;
-  top: 14vh;
-  left: 2vw;
-  width: 25vw;
-  height: 400vh;
+  top: 14vmin;
+  left: 2vmax;
+  width: 25vmax;
+  height: 232.5vmin;
   background-color: transparent;
 }
 
 .projects-media-box {
   margin: auto;
   position: absolute;
-  top: 14vh;
-  right: 2vw;
-  width: 45vw;
-  height: 400vh;
+  top: 14vmin;
+  right: 2vmax;
+  width: 45vmax;
+  height: 232.5vmin;
   background-color: transparent;
+}
+
+.projects-title {
+  margin: auto;
+  position: absolute;
+  top: 3.5vmin;
+  left: 2vmax;
+  width: 20vmax;
+  height: 4vmin;
+  background-color: transparent;
+  color: white;
+  font-size: 2.5vmin;
+  font-weight: bold;
+  font-family: hikasami;  
+}
+
+.projects-body {
+  margin: auto;
+  position: absolute;
+  top: 10vmin;
+  left: 2vmax;
+  width: 20vmax;
+  height: 36vmin;
+  background-color: transparent;
+  color: white;
+  font-size: 1.75vmin;
+  font-weight: normal;
+  font-family: anvers;  
+}
+
+.projects-body-extra {
+  margin: auto;
+  position: absolute;
+  top: 10vmin;
+  left: 2vmax;
+  width: 20vmax;
+  height: 41vmin;
+  background-color: transparent;
+  color: white;
+  font-size: 1.75vmin;
+  font-weight: normal;
+  font-family: anvers;  
 }
 
 /* Reverie Eye */
@@ -186,8 +228,8 @@ body
   margin: auto;
   position: absolute;
   top: 0%;
-  width: 25vw;
-  height: 50vh;
+  width: 25vmax;
+  height: 50vmin;
   background-color: transparent;
   border-top: thin solid red;
   border-left: thin solid red;
@@ -199,8 +241,8 @@ body
   position: absolute;
   top: 0%;
   left: 50%;
-  width: 42.5vw;
-  height: 50vh;
+  width: 42.5vmax;
+  height: 50vmin;
   transform: translate(-50%, 0%);
   border-top: thin solid red;
   border-right: thin solid red;
@@ -210,8 +252,8 @@ body
 #reverie-eye {
   margin: auto;
   position: absolute;
-  width: 37.5vw;
-  height: 50vh;
+  width: 37.5vmax;
+  height: 50vmin;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -222,9 +264,9 @@ body
 .kaleidos-text {
   margin: auto;
   position: absolute;
-  top: 52.5vh;
-  width: 25vw;
-  height: 55vh;
+  top: 52.5vmin;
+  width: 25vmax;
+  height: 55vmin;
   background-color: transparent;
   border-top: thin solid red;
   border-left: thin solid red;
@@ -234,10 +276,10 @@ body
 .projects-kaleidos {
   margin: auto;
   position: absolute;
-  top: 52.5vh;
+  top: 52.5vmin;
   left: 50%;
-  width: 42.5vw;
-  height: 55vh;
+  width: 42.5vmax;
+  height: 55vmin;
   transform: translate(-50%, 0%);
   border-top: thin solid red;
   border-right: thin solid red;
@@ -247,8 +289,8 @@ body
 #kaleidos {
   margin: auto;
   position: absolute;
-  width: 37.5vw;
-  height: 50vh;
+  width: 37.5vmax;
+  height: 50vmin;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -259,9 +301,9 @@ body
 .organism-text {
   margin: auto;
   position: absolute;
-  top: 110vh;
-  width: 25vw;
-  height: 55vh;
+  top: 110vmin;
+  width: 25vmax;
+  height: 55vmin;
   background-color: transparent;
   border-top: thin solid red;
   border-left: thin solid red;
@@ -271,10 +313,10 @@ body
 .projects-organism {
   margin: auto;
   position: absolute;
-  top: 110vh;
+  top: 110vmin;
   left: 50%;
-  width: 42.5vw;
-  height: 55vh;
+  width: 42.5vmax;
+  height: 55vmin;
   transform: translate(-50%, 0%);
   border-top: thin solid red;
   border-right: thin solid red;
@@ -284,24 +326,128 @@ body
 #organism {
   margin: auto;
   position: absolute;
-  width: 37.5vw;
-  height: 50vh;
+  width: 37.5vmax;
+  height: 50vmin;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+/* Publications */
+
+.publications-media-box {
+  margin: auto;
+  position: absolute;
+  left: 2vmax;
+  top: 182vmin;
+  width: 69vmax;
+  height: 60vmin;
+  background-color: transparent;
+}
+
+.publication-title {
+  margin: auto;
+  position: absolute;
+  top: 5vmin;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 17vmax;
+  height: 4vmin;
+  background-color: transparent;
+  color: white;
+  font-size: 2.5vmin;
+  font-weight: bold;
+  font-family: hikasami; 
+  text-align: center; 
+}
+
+.publication-body {
+  margin: auto;
+  position: absolute;
+  top: 12vmin;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 17vmax;
+  height: 36vmin;
+  background-color: transparent;
+  color: white;
+  font-size: 1.75vmin;
+  font-weight: normal;
+  font-family: anvers; 
+  text-align: left; 
+}
+
+.publication-link {
+  margin: auto;
+  position: absolute;
+  top: 51vmin;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 17vmax;
+  height: 5vmin;
+  background-color: transparent;
+  color: white;
+  border: thin solid red;
+  font-size: 2vmin;
+  font-weight: normal;
+  font-family: hikasami; 
+  vertical-align: middle;
+  line-height: 5vmin;
+  text-align: center; 
+  text-decoration: none;
+}
+
+.publication-link:hover {
+  background-color: red;
+  color: black;
+  cursor: pointer;
+}
+
+.i-am-another {
+  margin: auto;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 22vmax;
+  height: 60vmin;
+  background-color: transparent;
+  border: thin solid red;
+}
+
+.oneiric-afterlife{
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, 0%);
+  width: 22vmax;
+  height: 60vmin;
+  background-color: transparent;
+  border: thin solid red;
+}
+
+.oneiric-underworld {
+  margin: auto;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  width: 22vmax;
+  height: 60vmin;
+  background-color: transparent;
+  border: thin solid red;
+}
+
 .projects-back {
   margin: auto;
   position:absolute;
-  top: 4vh;
-  right: 2vw;
-  width: 5vh;
-  height: 5vh;
+  top: 4vmin;
+  right: 3vmax;
+  width: 5vmin;
+  height: 5vmin;
   background-color: transparent;
   color: red;
   border: thin solid red;
-  font-size: 2vh;
+  font-size: 2vmin;
   font-weight: bold;
   font-family: hikasami;    
   vertical-align: middle;
@@ -329,15 +475,15 @@ body
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0%);
-  width: 15vw;
-  height: 7.5vh;
+  width: 15vmax;
+  height: 7.5vmin;
   background-color: rgb(12, 12, 12);
   color: white;
   opacity: 80%;
   border-width: medium;
   border: none;
   font-family: hikasami;
-  font-size: 1.75vh;
+  font-size: 1.75vmin;
   text-align: center;
   vertical-align: middle;
 }
@@ -349,41 +495,69 @@ body
   left: 50%;
   top: 40%;
   transform: translate(-50%, -40%);
-  width: 45vw;
-  height: 65vh;
+  width: 45vmax;
+  height: 65vmin;
   border-radius: 1vmin;
   background-color: black;
-  opacity: 90%;
+  opacity: 82.5%;
 }
 
 .about-header {
   margin: auto;
   position: absolute;
-  top: 4vh;
-  left: 2vw;
-  width: 12vw;
-  height: 5vh;
-  padding-left: 2vw;
-  font-size: 2.5vh;
+  top: 4vmin;
+  left: 2vmax;
+  width: 12vmax;
+  height: 5vmin;
+  padding-left: 2vmax;
+  font-size: 2.5vmin;
   font-weight: bold;
   font-family: hikasami;    
   vertical-align: middle;
-  line-height: 5vh;
+  line-height: 5vmin;
   background-color: red;
   color: black;
+}
+
+.about-text-box {
+  margin: auto;
+  position: absolute;
+  top: 14vmin;
+  left: 2vmax;
+  width: 28vmax;
+  height: 44vmin;
+  background-color: transparent;
+  border-left: thin solid red;
+  border-top: thin solid red;
+  border-bottom: thin solid red;
+}
+
+.about-body {
+  margin: auto;
+  position: absolute;
+  top: 4vmin;
+  left: 2vmax;
+  width: 20vmax;
+  height: 36vmin;
+  background-color: transparent;
+  color: white;
+  font-size: 1.75vmin;
+  font-weight: normal;
+  font-family: anvers; 
+  text-align: left; 
 }
 
 .about-back {
   margin: auto;
   position: absolute;
-  top: 4vh;
-  right: 4vh;
-  width: 5vh;
-  height: 5vh;
+  top: 4vmin;
+  right: 4vmax;
+  width: 5vmin;
+  height: 5vmin;
   background-color: transparent;
   color: red;
   border: thin solid red;
-  font-size: 2vh;
+  font-size: 2vmin;
   font-weight: bold;
   font-family: hikasami;    
   vertical-align: middle;
@@ -410,15 +584,15 @@ body
   margin: auto;
   position: absolute;
   right: 0%;
-  width: 15vw;
-  height: 7.5vh;
+  width: 15vmax;
+  height: 7.5vmin;
   background-color: rgb(12, 12, 12);
   color: white;
   opacity: 80%;
   border-width: medium;
   border: none;
   font-family: hikasami;
-  font-size: 1.75vh;
+  font-size: 1.75vmin;
   text-align: center;
   vertical-align: middle;
 }
@@ -430,41 +604,54 @@ body
   left: 50%;
   top: 40%;
   transform: translate(-50%, -40%);
-  width: 45vw;
-  height: 65vh;
+  width: 45vmax;
+  height: 65vmin;
   border-radius: 1vmin;
   background-color: black;
-  opacity: 90%;
+  opacity: 82.5%;
 }
 
 .contact-header {
   margin: auto;
   position: absolute;
-  top: 4vh;
-  left: 2vw;
-  width: 12vw;
-  height: 5vh;
-  padding-left: 2vw;
-  font-size: 2.5vh;
+  top: 4vmin;
+  left: 2vmax;
+  width: 12vmax;
+  height: 5vmin;
+  padding-left: 2vmax;
+  font-size: 2.5vmin;
   font-weight: bold;
   font-family: hikasami;    
   vertical-align: middle;
-  line-height: 5vh;
+  line-height: 5vmin;
   background-color: red;
   color: black;
+}
+
+.contact-text-box {
+  margin: auto;
+  position: absolute;
+  top: 14vmin;
+  left: 2vmax;
+  width: 20vmax;
+  height: 44vmin;
+  background-color: transparent;
+  border-left: thin solid red;
+  border-top: thin solid red;
+  border-bottom: thin solid red;
 }
 
 .contact-back {
   margin: auto;
   position: absolute;
-  top: 4vh;
-  right: 4vh;
-  width: 5vh;
-  height: 5vh;
+  top: 4vmin;
+  right: 4vmax;
+  width: 5vmin;
+  height: 5vmin;
   background-color: transparent;
   color: red;
   border: thin solid red;
-  font-size: 2vh;
+  font-size: 2vmin;
   font-weight: bold;
   font-family: hikasami;    
   vertical-align: middle;

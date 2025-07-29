@@ -38,10 +38,10 @@ const textureLoader = new THREE.TextureLoader()
 // Floor
 const floorAlpha = textureLoader.load('./floor/alpha.webp')
 
-const floorColor = textureLoader.load('./floor/snow_02_2k/textures/snow_02_diff_2k.webp')
-const floorARM = textureLoader.load('./floor/snow_02_2k/textures/snow_02_arm_2k.webp')
-const floorNormal = textureLoader.load('./floor/snow_02_2k/textures/snow_02_nor_gl_2k.webp')
-const floorDisplacement = textureLoader.load('./floor/snow_02_2k/textures/snow_02_disp_2k.webp')
+const floorColor = textureLoader.load('./floor/lichen_rock_2k/lichen_rock_diff_2k.webp')
+const floorARM = textureLoader.load('./floor/lichen_rock_2k/lichen_rock_arm_2k.webp')
+const floorNormal = textureLoader.load('./floor/lichen_rock_2k/lichen_rock_nor_gl_2k.webp')
+const floorDisplacement = textureLoader.load('./floor/lichen_rock_2k/lichen_rock_disp_2k.webp')
 
 
 floorColor.colorSpace = THREE.SRGBColorSpace
@@ -81,9 +81,9 @@ stairsARM.wrapT = THREE.RepeatWrapping
 stairsNormal.wrapT = THREE.RepeatWrapping
 
 // Pillars and Pyramid
-const pillarsColor = textureLoader.load('./pillars_pyramid/herringbone_pavement_03_2k/textures/herringbone_pavement_03_diff_2k.webp')
-const pillarsARM = textureLoader.load('./pillars_pyramid/herringbone_pavement_03_2k/textures/herringbone_pavement_03_arm_2k.webp')
-const pillarsNormal = textureLoader.load('./pillars_pyramid/herringbone_pavement_03_2k/textures/herringbone_pavement_03_nor_gl_2k.webp')
+const pillarsColor = textureLoader.load('./pillars_pyramid/brick_wall_10_2k/brick_wall_10_diff_2k.webp')
+const pillarsARM = textureLoader.load('./pillars_pyramid/brick_wall_10_2k/brick_wall_10_arm_2k.webp')
+const pillarsNormal = textureLoader.load('./pillars_pyramid/brick_wall_10_2k/brick_wall_10_nor_gl_2k.webp')
 
 pillarsColor.colorSpace = THREE.SRGBColorSpace
 
@@ -115,7 +115,7 @@ const floor = new THREE.Mesh(
         metalnessMap: floorARM,
         normalMap: floorNormal,
         displacementMap: floorDisplacement,
-        displacementScale: 0.125,
+        displacementScale: 0.25,
         displacementBias: -0.03
     })
 )
@@ -285,7 +285,7 @@ const snowParticlesMaterial = new THREE.PointsMaterial({
     sizeAttenuation: true,
     transparent: true,
     depthWrite: false,
-    blending: THREE.AdditiveBlending
+    blending: THREE.AdditiveBlending,
 })
 
 // Points
@@ -301,7 +301,7 @@ const ambientLight = new THREE.AmbientLight('#FF4000', 3)
 scene.add(ambientLight)
 
 // Magic Orb Light
-const magicOrbLight = new THREE.PointLight('#FF4000', 100)
+const magicOrbLight = new THREE.PointLight('#FF4000', 120)
 magicOrbLight.position.set(0, 3, 0)
 scene.add(magicOrbLight)
 
@@ -333,8 +333,8 @@ window.addEventListener('resize', () =>
  */
 // Base camera
 const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height, 0.1, 5000)
-camera.position.y = 10
-camera.position.z = 12
+camera.position.y = 8
+camera.position.z = 8
 scene.add(camera)
 
 // Controls
@@ -343,7 +343,7 @@ controls.enableDamping = true
 controls.dampingFactor = 0.025
 controls.enablePan = false
 controls.minDistance = 4
-controls.maxDistance = 9
+controls.maxDistance = 8
 controls.maxPolarAngle = Math.PI * 0.375
 controls.autoRotate = true
 controls.autoRotateSpeed = 0.75
