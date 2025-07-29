@@ -183,7 +183,7 @@ body
 .projects-title {
   margin: auto;
   position: absolute;
-  top: 3.5vmin;
+  top: 4vmin;
   left: 2vmax;
   width: 20vmax;
   height: 4vmin;
@@ -192,6 +192,7 @@ body
   font-size: 2.5vmin;
   font-weight: bold;
   font-family: hikasami;  
+  overflow: hidden;
 }
 
 .projects-body {
@@ -206,6 +207,9 @@ body
   font-size: 1.75vmin;
   font-weight: normal;
   font-family: anvers;  
+  line-height: 2.5vmin;
+  overflow: hidden;
+  hyphens: auto;
 }
 
 .projects-body-extra {
@@ -220,6 +224,13 @@ body
   font-size: 1.75vmin;
   font-weight: normal;
   font-family: anvers;  
+  line-height: 2.5vmin;
+  overflow: hidden;
+  hyphens: auto;
+}
+
+.italic {
+  font-style: italic;
 }
 
 /* Reverie Eye */
@@ -359,12 +370,13 @@ body
   font-weight: bold;
   font-family: hikasami; 
   text-align: center; 
+  overflow: hidden;
 }
 
 .publication-body {
   margin: auto;
   position: absolute;
-  top: 12vmin;
+  top: 11.5vmin;
   left: 50%;
   transform: translate(-50%, 0%);
   width: 17vmax;
@@ -375,6 +387,9 @@ body
   font-weight: normal;
   font-family: anvers; 
   text-align: left; 
+  line-height: 2.5vmin;
+  overflow: hidden;
+  hyphens: auto;
 }
 
 .publication-link {
@@ -400,14 +415,16 @@ body
 .publication-link:hover {
   background-color: red;
   color: black;
+  font-weight: bold;
   cursor: pointer;
 }
 
 .i-am-another {
   margin: auto;
   position: absolute;
-  left: 0%;
+  left: 50%;
   top: 0%;
+  transform: translate(-50%, 0%);
   width: 22vmax;
   height: 60vmin;
   background-color: transparent;
@@ -417,9 +434,8 @@ body
 .oneiric-afterlife{
   margin: auto;
   position: absolute;
-  left: 50%;
+  left: 0%;
   top: 0%;
-  transform: translate(-50%, 0%);
   width: 22vmax;
   height: 60vmin;
   background-color: transparent;
@@ -495,7 +511,7 @@ body
   left: 50%;
   top: 40%;
   transform: translate(-50%, -40%);
-  width: 45vmax;
+  width: 36.5vmax;
   height: 65vmin;
   border-radius: 1vmin;
   background-color: black;
@@ -524,7 +540,7 @@ body
   position: absolute;
   top: 14vmin;
   left: 2vmax;
-  width: 28vmax;
+  width: 26vmax;
   height: 44vmin;
   background-color: transparent;
   border-left: thin solid red;
@@ -532,26 +548,44 @@ body
   border-bottom: thin solid red;
 }
 
-.about-body {
+.about-title {
   margin: auto;
   position: absolute;
   top: 4vmin;
   left: 2vmax;
   width: 20vmax;
-  height: 36vmin;
+  height: 4vmin;
+  color: white;
+  font-size: 2.5vmin;
+  font-weight: bold;
+  font-family: hikasami; 
+  text-align: left; 
+  overflow: hidden;
+}
+
+.about-body {
+  margin: auto;
+  position: absolute;
+  top: 10vmin;
+  left: 2vmax;
+  width: 20vmax;
+  height: 30vmin;
   background-color: transparent;
   color: white;
   font-size: 1.75vmin;
   font-weight: normal;
   font-family: anvers; 
+  line-height: 2.5vmin;
   text-align: left; 
+  overflow: hidden;
+  hyphens: auto;
 }
 
 .about-back {
   margin: auto;
   position: absolute;
   top: 4vmin;
-  right: 4vmax;
+  right: 2vmax;
   width: 5vmin;
   height: 5vmin;
   background-color: transparent;
@@ -604,7 +638,7 @@ body
   left: 50%;
   top: 40%;
   transform: translate(-50%, -40%);
-  width: 45vmax;
+  width: 25vmax;
   height: 65vmin;
   border-radius: 1vmin;
   background-color: black;
@@ -633,19 +667,152 @@ body
   position: absolute;
   top: 14vmin;
   left: 2vmax;
-  width: 20vmax;
+  width: 16vmax;
   height: 44vmin;
   background-color: transparent;
-  border-left: thin solid red;
-  border-top: thin solid red;
-  border-bottom: thin solid red;
+}
+
+.email {
+  margin: auto;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 14vmax;
+  height: 6vmin;
+  background-color: transparent;
+  color: white;
+  font-size: 1.75vmin;
+  font-weight: normal;
+  font-family: hikasami; 
+  vertical-align: middle;
+  line-height: 6vmin;
+  padding-left: 2vmax;
+  text-align: left; 
+  border: thin solid red;
+}
+
+.email:hover {
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.phone-number {
+  margin: auto;
+  position: absolute;
+  top: 8vmin;
+  left: 0%;
+  width: 10vmax;
+  height: 6vmin;
+  background-color: transparent;
+  color: white;
+  font-size: 1.75vmin;
+  font-weight: normal;
+  font-family: hikasami; 
+  vertical-align: middle;
+  line-height: 6vmin;
+  padding-left: 2vmax;
+  text-align: left; 
+  border: thin solid red;
+}
+
+.phone-number:hover {
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.arena {
+  margin: auto;
+  position: absolute;
+  top: 16vmin;
+  left: 0%;
+  width: 8vmax;
+  height: 6vmin;
+  background-color: transparent;
+  color: white;
+  font-size: 1.75vmin;
+  font-weight: normal;
+  font-family: hikasami; 
+  padding-left: 2vmax;
+  vertical-align: middle;
+  line-height: 6vmin;
+  padding-left: 2vmax;
+  text-align: left; 
+  border: thin solid red;
+  text-decoration: none;
+}
+
+.arena:hover {
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.letterboxd {
+  margin: auto;
+  position: absolute;
+  top: 24vmin;
+  left: 0%;
+  width: 8vmax;
+  height: 6vmin;
+  background-color: transparent;
+  color: white;
+  font-size: 1.75vmin;
+  font-weight: normal;
+  font-family: hikasami; 
+  padding-left: 2vmax;
+  vertical-align: middle;
+  line-height: 6vmin;
+  padding-left: 2vmax;
+  text-align: left; 
+  border: thin solid red;
+  text-decoration: none;
+}
+
+.letterboxd:hover {
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.linkedin {
+  margin: auto;
+  position: absolute;
+  top: 32vmin;
+  left: 0%;
+  width: 8vmax;
+  height: 6vmin;
+  background-color: transparent;
+  color: white;
+  font-size: 1.75vmin;
+  font-weight: normal;
+  font-family: hikasami; 
+  padding-left: 2vmax;
+  vertical-align: middle;
+  line-height: 6vmin;
+  padding-left: 2vmax;
+  text-align: left; 
+  border: thin solid red;
+  text-decoration: none;
+}
+
+.linkedin:hover {
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .contact-back {
   margin: auto;
   position: absolute;
   top: 4vmin;
-  right: 4vmax;
+  right: 2vmax;
   width: 5vmin;
   height: 5vmin;
   background-color: transparent;
