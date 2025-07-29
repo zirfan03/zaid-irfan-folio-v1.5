@@ -1,0 +1,486 @@
+/* General */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 0.75vw;
+  background: black;
+  border-radius: 1vmin;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: red;
+}
+
+::-webkit-scrollbar-track {
+  border: medium solid red;
+  margin: 4vh;
+}
+
+/* Fonts */
+
+@font-face {
+  font-family: hikasami;
+  src: url(/fonts/hikasami/ttf/Hikasami-Regular.ttf);
+}
+
+@font-face {
+  font-family: anvers;
+  src: url(/fonts/anvers/Anvers-Regular.ttf);
+}
+
+/* Header */
+
+.header {
+    margin: auto;
+    position: absolute;
+    top: 5vh;
+    left: 50%;
+    transform: translate(-50%, 5%);
+    width: 25vw;
+    height: 7.5vh;
+    border-radius: 1vmin;
+    background-color: rgb(12, 12, 12);
+    opacity: 80%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 7.5vh;
+    font-size: 2.5vh;
+    font-weight: bold;
+    font-family: hikasami;
+    color: white;
+}
+
+.header:hover {
+    background-color: rgb(255, 0, 0);
+    cursor:pointer;
+    color: black;
+    transition: 2s;
+}
+
+/* Nav Bar */
+
+.nav {
+  margin: auto;
+  position: absolute;
+  bottom: 10vh;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 50vw;
+  height: 7.5vh;
+  border-radius: 1vmin;
+  background-color: rgb(12, 12, 12);
+  opacity: 80%;
+}
+
+.nav-margin {
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 45vw;
+  height: 7.5vh;
+  background-color: rgb(12, 12, 12);
+  opacity: 100%;
+}
+
+/* Projects Modal */
+
+.projects-nav-button {
+  margin: auto;
+  position: absolute;
+  left: 0%;
+  width: 15vw;
+  height: 7.5vh;
+  background-color: rgb(12, 12, 12);
+  color: white;
+  opacity: 80%;
+  border-width: medium;
+  border: none;
+  font-family: hikasami;
+  font-size: 1.75vh;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.projects-menu {
+  display: none;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -40%);
+  width: 75vw;
+  height: 65vh;
+  border-radius: 1vmin;
+  background-color: black;
+  opacity: 90%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.projects-header {
+  margin: auto;
+  position: absolute;
+  top: 4vh;
+  left: 2vw;
+  width: 23vw;
+  height: 5vh;
+  padding-left: 2vw;
+  font-size: 2.5vh;
+  font-weight: bold;
+  font-family: hikasami;    
+  vertical-align: middle;
+  line-height: 5vh;
+  background-color: red;
+  color: black;
+}
+
+.projects-text-box {
+  margin: auto;
+  position: absolute;
+  top: 14vh;
+  left: 2vw;
+  width: 25vw;
+  height: 400vh;
+  background-color: transparent;
+}
+
+.projects-media-box {
+  margin: auto;
+  position: absolute;
+  top: 14vh;
+  right: 2vw;
+  width: 45vw;
+  height: 400vh;
+  background-color: transparent;
+}
+
+/* Reverie Eye */
+
+.reverie-eye-text {
+  margin: auto;
+  position: absolute;
+  top: 0%;
+  width: 25vw;
+  height: 50vh;
+  background-color: transparent;
+  border-top: thin solid red;
+  border-left: thin solid red;
+  border-bottom: thin solid red;
+}
+
+.projects-reverie-eye {
+  margin: auto;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  width: 42.5vw;
+  height: 50vh;
+  transform: translate(-50%, 0%);
+  border-top: thin solid red;
+  border-right: thin solid red;
+  border-bottom: thin solid red;
+}
+
+#reverie-eye {
+  margin: auto;
+  position: absolute;
+  width: 37.5vw;
+  height: 50vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Kaleidos */
+
+.kaleidos-text {
+  margin: auto;
+  position: absolute;
+  top: 52.5vh;
+  width: 25vw;
+  height: 55vh;
+  background-color: transparent;
+  border-top: thin solid red;
+  border-left: thin solid red;
+  border-bottom: thin solid red;
+}
+
+.projects-kaleidos {
+  margin: auto;
+  position: absolute;
+  top: 52.5vh;
+  left: 50%;
+  width: 42.5vw;
+  height: 55vh;
+  transform: translate(-50%, 0%);
+  border-top: thin solid red;
+  border-right: thin solid red;
+  border-bottom: thin solid red;
+}
+
+#kaleidos {
+  margin: auto;
+  position: absolute;
+  width: 37.5vw;
+  height: 50vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Organism */
+
+.organism-text {
+  margin: auto;
+  position: absolute;
+  top: 110vh;
+  width: 25vw;
+  height: 55vh;
+  background-color: transparent;
+  border-top: thin solid red;
+  border-left: thin solid red;
+  border-bottom: thin solid red;
+}
+
+.projects-organism {
+  margin: auto;
+  position: absolute;
+  top: 110vh;
+  left: 50%;
+  width: 42.5vw;
+  height: 55vh;
+  transform: translate(-50%, 0%);
+  border-top: thin solid red;
+  border-right: thin solid red;
+  border-bottom: thin solid red;
+}
+
+#organism {
+  margin: auto;
+  position: absolute;
+  width: 37.5vw;
+  height: 50vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.projects-back {
+  margin: auto;
+  position:absolute;
+  top: 4vh;
+  right: 2vw;
+  width: 5vh;
+  height: 5vh;
+  background-color: transparent;
+  color: red;
+  border: thin solid red;
+  font-size: 2vh;
+  font-weight: bold;
+  font-family: hikasami;    
+  vertical-align: middle;
+}
+
+.projects-back:hover {
+  background-color: red;
+  color: black;
+  cursor: pointer;
+}
+
+.projects-nav-button:hover {
+  border-top: solid white;
+  border-bottom: solid white;
+  background-color: black;
+  opacity: 100%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* About Modal */
+
+.about-nav-button {
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 15vw;
+  height: 7.5vh;
+  background-color: rgb(12, 12, 12);
+  color: white;
+  opacity: 80%;
+  border-width: medium;
+  border: none;
+  font-family: hikasami;
+  font-size: 1.75vh;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.about-menu {
+  display: none;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -40%);
+  width: 45vw;
+  height: 65vh;
+  border-radius: 1vmin;
+  background-color: black;
+  opacity: 90%;
+}
+
+.about-header {
+  margin: auto;
+  position: absolute;
+  top: 4vh;
+  left: 2vw;
+  width: 12vw;
+  height: 5vh;
+  padding-left: 2vw;
+  font-size: 2.5vh;
+  font-weight: bold;
+  font-family: hikasami;    
+  vertical-align: middle;
+  line-height: 5vh;
+  background-color: red;
+  color: black;
+}
+
+.about-back {
+  margin: auto;
+  position: absolute;
+  top: 4vh;
+  right: 4vh;
+  width: 5vh;
+  height: 5vh;
+  background-color: transparent;
+  color: red;
+  border: thin solid red;
+  font-size: 2vh;
+  font-weight: bold;
+  font-family: hikasami;    
+  vertical-align: middle;
+}
+
+.about-back:hover {
+  background-color: red;
+  color: black;
+  cursor: pointer;
+}
+
+.about-nav-button:hover {
+  border-top: solid white;
+  border-bottom: solid white;
+  background-color: black;
+  opacity: 100%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Contact Modal */
+
+.contact-nav-button {
+  margin: auto;
+  position: absolute;
+  right: 0%;
+  width: 15vw;
+  height: 7.5vh;
+  background-color: rgb(12, 12, 12);
+  color: white;
+  opacity: 80%;
+  border-width: medium;
+  border: none;
+  font-family: hikasami;
+  font-size: 1.75vh;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.contact-menu {
+  display: none;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -40%);
+  width: 45vw;
+  height: 65vh;
+  border-radius: 1vmin;
+  background-color: black;
+  opacity: 90%;
+}
+
+.contact-header {
+  margin: auto;
+  position: absolute;
+  top: 4vh;
+  left: 2vw;
+  width: 12vw;
+  height: 5vh;
+  padding-left: 2vw;
+  font-size: 2.5vh;
+  font-weight: bold;
+  font-family: hikasami;    
+  vertical-align: middle;
+  line-height: 5vh;
+  background-color: red;
+  color: black;
+}
+
+.contact-back {
+  margin: auto;
+  position: absolute;
+  top: 4vh;
+  right: 4vh;
+  width: 5vh;
+  height: 5vh;
+  background-color: transparent;
+  color: red;
+  border: thin solid red;
+  font-size: 2vh;
+  font-weight: bold;
+  font-family: hikasami;    
+  vertical-align: middle;
+}
+
+.contact-back:hover {
+  background-color: red;
+  color: black;
+  cursor: pointer;
+}
+
+.contact-nav-button:hover {
+  border-top: solid white;
+  border-bottom: solid white;
+  background-color: black;
+  opacity: 100%;
+  font-weight: bold;
+  cursor: pointer;
+}

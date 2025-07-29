@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Zaid Irfan's Portfolio (v1.5) </title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="icon" type="image/x-icon" href="/favicon/portfolio_favicon.jpg">
+</head>
+
+<body>
+
+    <!-- Three.js Canvas -->
+    <canvas class="webgl"></canvas>
+    
+    <!-- Header -->
+    <div class="header" onclick="location.href='index.html'"> ZAID IRFAN'S PORTFOLIO </div>
+
+    <!-- Nav Bar -->
+    <div class="nav"> 
+      <div class="nav-margin"> 
+        <button id="projects-button" class="projects-nav-button"> PROJECTS </button>        
+        <button id="about-button" class="about-nav-button"> ABOUT </button>
+        <button id="contact-button" class="contact-nav-button"> CONTACT </button>
+      </div>
+    </div>
+
+    <!-- Modals -->
+    <div id="projects-modal" class="projects-menu">
+      <button id="projects-exit" class="projects-back"> X </button>
+      <div class="projects-header"> Projects </div>
+
+      <div class="projects-text-box"> 
+        <div class="reverie-eye-text"> </div>
+        <div class="kaleidos-text"> </div>
+        <div class="organism-text"> </div>
+      </div>
+
+      <div class="projects-media-box">
+
+        <div class="projects-reverie-eye"> 
+          <iframe src="https://player.vimeo.com/video/1105229702?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" id="reverie-eye" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="reverie_eye"></iframe>
+        </div>
+
+        <div class="projects-kaleidos"> 
+          <iframe src="https://player.vimeo.com/video/1105232464?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" id="kaleidos" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="kaleidos_combined"></iframe>
+        </div>
+
+        <div class="projects-organism">
+          <iframe src="https://player.vimeo.com/video/1105231318?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" id="organism" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="organism_edited"></iframe>
+        </div>
+
+      <div class="publications-media-box"> 
+        
+      </div>
+
+      </div>
+      
+    </div>
+
+    <div id="about-modal" class="about-menu">
+      <button id="about-exit" class="about-back"> X </button>
+      <div class="about-header"> About </div>
+    </div>
+
+    <div id="contact-modal" class="contact-menu">
+      <button id="contact-exit" class="contact-back"> X </button>
+      <div class="contact-header"> Contact </div>
+    </div>
+
+    <!-- Script -->
+    <script type="module" src="./src/main.js"></script>
+    
+</body>
+</html>
