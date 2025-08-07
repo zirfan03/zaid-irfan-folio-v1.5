@@ -195,6 +195,11 @@ body
   overflow: hidden;
 }
 
+.projects-subhead {
+  font-style: italic;
+  font-weight:bold;
+}
+
 .projects-body {
   margin: auto;
   position: absolute;
@@ -207,7 +212,7 @@ body
   font-size: 1.75vmin;
   font-weight: normal;
   font-family: anvers;  
-  line-height: 2.5vmin;
+  line-height: 2.375vmin;
   overflow: hidden;
   hyphens: auto;
 }
@@ -224,7 +229,7 @@ body
   font-size: 1.75vmin;
   font-weight: normal;
   font-family: anvers;  
-  line-height: 2.5vmin;
+  line-height: 2.375vmin;
   overflow: hidden;
   hyphens: auto;
 }
@@ -352,7 +357,7 @@ body
   left: 2vmax;
   top: 182vmin;
   width: 69vmax;
-  height: 60vmin;
+  height: 70vmin;
   background-color: transparent;
 }
 
@@ -373,6 +378,11 @@ body
   overflow: hidden;
 }
 
+.publication-subhead {
+  font-style: italic;
+  font-weight: bold;
+}
+
 .publication-body {
   margin: auto;
   position: absolute;
@@ -380,14 +390,14 @@ body
   left: 50%;
   transform: translate(-50%, 0%);
   width: 17vmax;
-  height: 36vmin;
+  height: 40vmin;
   background-color: transparent;
   color: white;
   font-size: 1.75vmin;
   font-weight: normal;
   font-family: anvers; 
   text-align: left; 
-  line-height: 2.5vmin;
+  line-height: 2.375vmin;
   overflow: hidden;
   hyphens: auto;
 }
@@ -395,7 +405,7 @@ body
 .publication-link {
   margin: auto;
   position: absolute;
-  top: 51vmin;
+  top: 56vmin;
   left: 50%;
   transform: translate(-50%, 0%);
   width: 17vmax;
@@ -426,7 +436,7 @@ body
   top: 0%;
   transform: translate(-50%, 0%);
   width: 22vmax;
-  height: 60vmin;
+  height: 65.75vmin;
   background-color: transparent;
   border: thin solid red;
 }
@@ -437,7 +447,7 @@ body
   left: 0%;
   top: 0%;
   width: 22vmax;
-  height: 60vmin;
+  height: 65.75vmin;
   background-color: transparent;
   border: thin solid red;
 }
@@ -448,7 +458,7 @@ body
   right: 0%;
   top: 0%;
   width: 22vmax;
-  height: 60vmin;
+  height: 65.75vmin;
   background-color: transparent;
   border: thin solid red;
 }
@@ -566,16 +576,16 @@ body
 .about-body {
   margin: auto;
   position: absolute;
-  top: 10vmin;
+  top: 10.5vmin;
   left: 2vmax;
   width: 20vmax;
-  height: 30vmin;
+  height: 29vmin;
   background-color: transparent;
   color: white;
   font-size: 1.75vmin;
   font-weight: normal;
   font-family: anvers; 
-  line-height: 2.5vmin;
+  line-height: 2.375vmin;
   text-align: left; 
   overflow: hidden;
   hyphens: auto;
@@ -678,14 +688,14 @@ body
   top: 0%;
   left: 0%;
   width: 14vmax;
-  height: 6vmin;
+  height: 5.5vmin;
   background-color: transparent;
   color: white;
   font-size: 1.75vmin;
   font-weight: normal;
   font-family: hikasami; 
   vertical-align: middle;
-  line-height: 6vmin;
+  line-height: 5.5vmin;
   padding-left: 2vmax;
   text-align: left; 
   border: thin solid red;
@@ -701,17 +711,17 @@ body
 .phone-number {
   margin: auto;
   position: absolute;
-  top: 8vmin;
+  top: 7.5vmin;
   left: 0%;
-  width: 10vmax;
-  height: 6vmin;
+  width: 14vmax;
+  height: 5.5vmin;
   background-color: transparent;
   color: white;
   font-size: 1.75vmin;
   font-weight: normal;
   font-family: hikasami; 
   vertical-align: middle;
-  line-height: 6vmin;
+  line-height: 5.5vmin;
   padding-left: 2vmax;
   text-align: left; 
   border: thin solid red;
@@ -727,10 +737,10 @@ body
 .arena {
   margin: auto;
   position: absolute;
-  top: 16vmin;
+  top: 15vmin;
   left: 0%;
-  width: 8vmax;
-  height: 6vmin;
+  width: 14vmax;
+  height: 5.5vmin;
   background-color: transparent;
   color: white;
   font-size: 1.75vmin;
@@ -738,7 +748,7 @@ body
   font-family: hikasami; 
   padding-left: 2vmax;
   vertical-align: middle;
-  line-height: 6vmin;
+  line-height: 5.5vmin;
   padding-left: 2vmax;
   text-align: left; 
   border: thin solid red;
@@ -755,10 +765,10 @@ body
 .letterboxd {
   margin: auto;
   position: absolute;
-  top: 24vmin;
+  top: 22.5vmin;
   left: 0%;
-  width: 8vmax;
-  height: 6vmin;
+  width: 14vmax;
+  height: 5.5vmin;
   background-color: transparent;
   color: white;
   font-size: 1.75vmin;
@@ -766,7 +776,7 @@ body
   font-family: hikasami; 
   padding-left: 2vmax;
   vertical-align: middle;
-  line-height: 6vmin;
+  line-height: 5.5vmin;
   padding-left: 2vmax;
   text-align: left; 
   border: thin solid red;
@@ -783,10 +793,10 @@ body
 .linkedin {
   margin: auto;
   position: absolute;
-  top: 32vmin;
+  top: 30vmin;
   left: 0%;
-  width: 8vmax;
-  height: 6vmin;
+  width: 14vmax;
+  height: 5.5vmin;
   background-color: transparent;
   color: white;
   font-size: 1.75vmin;
@@ -794,7 +804,7 @@ body
   font-family: hikasami; 
   padding-left: 2vmax;
   vertical-align: middle;
-  line-height: 6vmin;
+  line-height: 5.5vmin;
   padding-left: 2vmax;
   text-align: left; 
   border: thin solid red;
@@ -802,6 +812,34 @@ body
 }
 
 .linkedin:hover {
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.resume {
+  margin: auto;
+  position: absolute;
+  top: 37.5vmin;
+  left: 0%;
+  width: 14vmax;
+  height: 5.5vmin;
+  background-color: transparent;
+  color: white;
+  font-size: 1.75vmin;
+  font-weight: normal;
+  font-family: hikasami; 
+  padding-left: 2vmax;
+  vertical-align: middle;
+  line-height: 5.5vmin;
+  padding-left: 2vmax;
+  text-align: left; 
+  border: thin solid red;
+  text-decoration: none;
+}
+
+.resume:hover {
   background-color: red;
   color: black;
   font-weight: bold;
