@@ -463,7 +463,7 @@ const aboutModal = document.getElementById("about-modal")
 const aboutButton = document.getElementById("about-button")
 const aboutExit = document.getElementById("about-exit")
 
-// Projects
+// Contact
 const contactModal = document.getElementById("contact-modal")
 const contactButton = document.getElementById("contact-button")
 const contactExit = document.getElementById("contact-exit")
@@ -472,28 +472,64 @@ projectsButton.onclick = function() {
   projectsModal.style.display = "block"
   aboutModal.style.display = "none"
   contactModal.style.display = "none"
+  projectsButton.style.color = "red"
+  projectsButton.style.fontWeight = "bold"
+  projectsButton.style.borderColor = "red"
+  aboutButton.style.color = ""
+  aboutButton.style.fontWeight = ""
+  aboutButton.style.borderColor = ""
+  contactButton.style.color = ""
+  contactButton.style.fontWeight = ""
+  contactButton.style.borderColor = ""
 }
 
 projectsExit.onclick = function() {
   projectsModal.style.display = "none"
+  projectsButton.style.color = "white"
+  projectsButton.style.fontWeight = "normal"
+  projectsButton.style.borderColor = "white"
 }
 
 aboutButton.onclick = function() {
   aboutModal.style.display = "block"
   projectsModal.style.display = "none"
   contactModal.style.display = "none"
+  projectsButton.style.color = ""
+  projectsButton.style.fontWeight = ""
+  projectsButton.style.borderColor = ""
+  aboutButton.style.color = "red"
+  aboutButton.style.fontWeight = "bold"
+  aboutButton.style.borderColor = "red"
+  contactButton.style.color = ""
+  contactButton.style.fontWeight = ""
+  contactButton.style.borderColor = ""
 }
 
 aboutExit.onclick = function() {
   aboutModal.style.display = "none"
+  aboutButton.style.color = "white"
+  aboutButton.style.fontWeight = "normal"
+  aboutButton.style.borderColor = "white"
 }
 
 contactButton.onclick = function() {
   contactModal.style.display = "block"
   projectsModal.style.display = "none"
   aboutModal.style.display = "none"
+  projectsButton.style.color = ""
+  projectsButton.style.fontWeight = ""
+  projectsButton.style.borderColor = ""
+  aboutButton.style.color = ""
+  aboutButton.style.fontWeight = ""
+  aboutButton.style.borderColor = ""
+  contactButton.style.color = "red"
+  contactButton.style.fontWeight = "bold"
+  contactButton.style.borderColor = "red"
 }
 
 contactExit.onclick = function() {
   contactModal.style.display = "none"
+  contactButton.style.color = "white"
+  contactButton.style.fontWeight = "normal"
+  contactButton.style.borderColor = "white"
 }

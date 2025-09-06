@@ -65,11 +65,11 @@ body
     height: 7.5vmin;
     border-radius: 1vmin;
     background-color: rgb(12, 12, 12);
-    opacity: 80%;
+    opacity: 82.5%;
     text-align: center;
     vertical-align: middle;
     line-height: 7.5vmin;
-    font-size: 2.5vmin;
+    font-size: 1.25vmax;
     font-weight: bold;
     font-family: hikasami;
     color: white;
@@ -94,7 +94,7 @@ body
   height: 7.5vmin;
   border-radius: 1vmin;
   background-color: rgb(12, 12, 12);
-  opacity: 80%;
+  opacity: 82.5%;
 }
 
 .nav-margin {
@@ -118,11 +118,11 @@ body
   height: 7.5vmin;
   background-color: rgb(12, 12, 12);
   color: white;
-  opacity: 80%;
+  opacity: 82.5%;
   border-width: medium;
   border: none;
   font-family: hikasami;
-  font-size: 1.75vmin;
+  font-size: 0.875vmax;
   text-align: center;
   vertical-align: middle;
 }
@@ -151,7 +151,7 @@ body
   width: 23vmax;
   height: 5vmin;
   padding-left: 2vmax;
-  font-size: 2.5vmin;
+  font-size: 1.25vmax;
   font-weight: bold;
   font-family: hikasami;    
   vertical-align: middle;
@@ -189,7 +189,7 @@ body
   height: 4vmin;
   background-color: transparent;
   color: white;
-  font-size: 2.5vmin;
+  font-size: 1.125vmax;
   font-weight: bold;
   font-family: hikasami;  
   overflow: hidden;
@@ -209,7 +209,7 @@ body
   height: 36vmin;
   background-color: transparent;
   color: white;
-  font-size: 1.75vmin;
+  font-size: 0.8vmax;
   font-weight: normal;
   font-family: anvers;  
   line-height: 2.375vmin;
@@ -226,7 +226,7 @@ body
   height: 41vmin;
   background-color: transparent;
   color: white;
-  font-size: 1.75vmin;
+  font-size: 0.8vmax;
   font-weight: normal;
   font-family: anvers;  
   line-height: 2.375vmin;
@@ -371,7 +371,7 @@ body
   height: 4vmin;
   background-color: transparent;
   color: white;
-  font-size: 2.5vmin;
+  font-size: 1.125vmax;
   font-weight: bold;
   font-family: hikasami; 
   text-align: center; 
@@ -393,7 +393,7 @@ body
   height: 40vmin;
   background-color: transparent;
   color: white;
-  font-size: 1.75vmin;
+  font-size: 0.8vmax;
   font-weight: normal;
   font-family: anvers; 
   text-align: left; 
@@ -413,7 +413,7 @@ body
   background-color: transparent;
   color: white;
   border: thin solid red;
-  font-size: 2vmin;
+  font-size: 0.875vmax;
   font-weight: normal;
   font-family: hikasami; 
   vertical-align: middle;
@@ -473,7 +473,7 @@ body
   background-color: transparent;
   color: red;
   border: thin solid red;
-  font-size: 2vmin;
+  font-size: 0.875vmax;
   font-weight: bold;
   font-family: hikasami;    
   vertical-align: middle;
@@ -505,11 +505,11 @@ body
   height: 7.5vmin;
   background-color: rgb(12, 12, 12);
   color: white;
-  opacity: 80%;
+  opacity: 82.5%;
   border-width: medium;
   border: none;
   font-family: hikasami;
-  font-size: 1.75vmin;
+  font-size: 0.875vmax;
   text-align: center;
   vertical-align: middle;
 }
@@ -536,7 +536,7 @@ body
   width: 12vmax;
   height: 5vmin;
   padding-left: 2vmax;
-  font-size: 2.5vmin;
+  font-size: 1.25vmax;
   font-weight: bold;
   font-family: hikasami;    
   vertical-align: middle;
@@ -566,7 +566,7 @@ body
   width: 20vmax;
   height: 4vmin;
   color: white;
-  font-size: 2.5vmin;
+  font-size: 1.125vmax;
   font-weight: bold;
   font-family: hikasami; 
   text-align: left; 
@@ -582,7 +582,7 @@ body
   height: 29vmin;
   background-color: transparent;
   color: white;
-  font-size: 1.75vmin;
+  font-size: 0.8vmax;
   font-weight: normal;
   font-family: anvers; 
   line-height: 2.375vmin;
@@ -601,7 +601,7 @@ body
   background-color: transparent;
   color: red;
   border: thin solid red;
-  font-size: 2vmin;
+  font-size: 0.875vmax;
   font-weight: bold;
   font-family: hikasami;    
   vertical-align: middle;
@@ -632,11 +632,11 @@ body
   height: 7.5vmin;
   background-color: rgb(12, 12, 12);
   color: white;
-  opacity: 80%;
+  opacity: 82.5%;
   border-width: medium;
   border: none;
   font-family: hikasami;
-  font-size: 1.75vmin;
+  font-size: 0.875vmax;
   text-align: center;
   vertical-align: middle;
 }
@@ -663,7 +663,7 @@ body
   width: 12vmax;
   height: 5vmin;
   padding-left: 2vmax;
-  font-size: 2.5vmin;
+  font-size: 1.25vmax;
   font-weight: bold;
   font-family: hikasami;    
   vertical-align: middle;
@@ -691,7 +691,7 @@ body
   height: 5.5vmin;
   background-color: transparent;
   color: white;
-  font-size: 1.75vmin;
+  font-size: 0.8vmax;
   font-weight: normal;
   font-family: hikasami; 
   vertical-align: middle;
@@ -717,7 +717,7 @@ body
   height: 5.5vmin;
   background-color: transparent;
   color: white;
-  font-size: 1.75vmin;
+  font-size: 0.8vmax;
   font-weight: normal;
   font-family: hikasami; 
   vertical-align: middle;
@@ -743,7 +743,7 @@ body
   height: 5.5vmin;
   background-color: transparent;
   color: white;
-  font-size: 1.75vmin;
+  font-size: 0.8vmax;
   font-weight: normal;
   font-family: hikasami; 
   padding-left: 2vmax;
@@ -771,7 +771,7 @@ body
   height: 5.5vmin;
   background-color: transparent;
   color: white;
-  font-size: 1.75vmin;
+  font-size: 0.8vmax;
   font-weight: normal;
   font-family: hikasami; 
   padding-left: 2vmax;
@@ -799,7 +799,7 @@ body
   height: 5.5vmin;
   background-color: transparent;
   color: white;
-  font-size: 1.75vmin;
+  font-size: 0.8vmax;
   font-weight: normal;
   font-family: hikasami; 
   padding-left: 2vmax;
@@ -827,7 +827,7 @@ body
   height: 5.5vmin;
   background-color: transparent;
   color: white;
-  font-size: 1.75vmin;
+  font-size: 0.8vmax;
   font-weight: normal;
   font-family: hikasami; 
   padding-left: 2vmax;
@@ -856,7 +856,7 @@ body
   background-color: transparent;
   color: red;
   border: thin solid red;
-  font-size: 2vmin;
+  font-size: 0.875vmax;
   font-weight: bold;
   font-family: hikasami;    
   vertical-align: middle;
