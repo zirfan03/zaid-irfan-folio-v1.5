@@ -2,7 +2,7 @@
 
 <!-- Just a random comment. -->
 
-## A Surrealist Web Developer
+## My First 3D Portfolio
 
 Hello! My name is Zaid, and this is my first portfolio website, as well one of my first major projects made using three.js. There was actually a version prior to this (hence the "v1.5" in the project's name), but there were some things I wanted to change.
 
