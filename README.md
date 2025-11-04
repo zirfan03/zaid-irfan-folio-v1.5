@@ -8,4 +8,4 @@ Hello! My name is Zaid, and this is my first portfolio website, as well one of m
 
 Much of the knowledge that went into this site was acquired from Bruno Simon's "Three.js Journey" course, which is one that I am sure many three.js/webGL enthusiasts are familiar with by now.
 
-I have been working on a more up-to-date portfolio that includes custom models made in Blender, baked textures, shaders, and more things to interact and engage with. This portfolio was made entirely without all these things, using only the primitive shapes, a particle system, and real-time lighting, the latter of which perhaps contributes the most to the abundant number of draw calls produced by the site.
+I have been working on a more up-to-date portfolio that includes custom models made in Blender, baked textures, shaders, and more things to interact and engage with. This portfolio was made entirely without all these things, using only the primitive shapes, a particle system, and real-time lighting, the latter of which perhaps contributes the most to the abundant number of draw calls produced everything.
